@@ -31,9 +31,10 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 10px;
 }
 
-#about .container {
+#skills .container {
     justify-content: flex-start;
 }
 
@@ -82,4 +83,15 @@ h1 {
 .card {
     border: 2px solid black;
     padding: 40px;
+}
+
+#experience .card {
+    width: 230px;
+}
+
+.tag {
+    padding: 5px 10px 7px;
+    background-color: black;
+    color: #F2F1EF;
+    border-radius: 8px;
 }
