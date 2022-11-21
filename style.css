@@ -47,6 +47,13 @@ button {
     padding: 20px 40px;
     letter-spacing: 2px;
     font-weight: 700;
+    transition: .3s ease-in-out;
+}
+
+button:hover,
+button:focus {
+    background-color: black;
+    color: white;
 }
 
 .square {
